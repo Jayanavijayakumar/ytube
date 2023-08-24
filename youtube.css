@@ -1,0 +1,113 @@
+body{
+    background-color: #f9f9f9
+}
+.youtubeheader{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.youtubelogo{
+    height: 35px;
+    margin: 7px;
+    margin-top: 10px;
+    margin-left: 10px; 
+    cursor: pointer;
+}
+.youtubesearchbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.youtubesearchinput{
+    outline: none;
+    padding: 4px;
+    width: 30em;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchicon{
+    padding: 8px;
+    border: 1px solid grey;
+    background-color: #f8f8f8;
+    padding-right: 25px;
+    padding-left: 25px;
+    outline: none;
+    cursor: pointer;
+}
+.headericons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.headericon{
+    color: #606060;
+    margin: 13px;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.youtubebottom{
+    display: flex;
+    flex-direction: row;
+}
+.youtubesidebar{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+.sidebarrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.sidebarrow:hover{
+    background-color: #e5e5e5ab;
+
+}
+.sidebarrow i{
+    font-size: 15px;
+    color: #606060;
+    margin: 10px;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+.sidebarrow h1{
+    font-size: 15px;
+    font-weight: 600;
+}
+.youtubevideos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    flex: 1;
+    margin-left: 250px;
+    width: 100%;
+}
+.youtubevideo{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 270px;
+    padding: 5px;
+    cursor: pointer;
+}
